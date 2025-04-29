@@ -1,0 +1,29 @@
+body {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+svg {
+  background-color: #f4f4f4;
+}
+
+.dot {
+  stroke: black;
+  opacity: 0.7;
+}
+
+#tooltip {
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  pointer-events: none;
+  opacity: 0;
+}
+
+#legend {
+  text-anchor: start;
+  font-size: 14px;
+  fill: #000;
+}
